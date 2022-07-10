@@ -1,0 +1,23 @@
+.progressBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.notStarted,
+.inProgress,
+.completed {
+  display: flex;
+}
+.red {
+  background-color: red;
+  width: 20px;
+  height: 20px;
+}
+.grey {
+  background-color: grey;
+  width: 20px;
+  height: 20px;
+}
+.progressItem {
+  display: block;
+}

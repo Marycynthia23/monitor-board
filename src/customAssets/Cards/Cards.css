@@ -1,0 +1,18 @@
+.cards {
+  width: 250px;
+  height: 500px;
+  background-color: "green";
+}
+.cardHeaderBox {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.cardsHeading {
+}
+.solidPin {
+  width: 40px;
+  height: 40px;
+}

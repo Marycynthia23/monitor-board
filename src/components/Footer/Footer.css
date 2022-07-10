@@ -1,0 +1,11 @@
+.footerCont {
+  display: flex;
+  margin: auto;
+  background-color: #3c3c3c;
+}
+.footerText {
+  display: flex;
+  margin: auto;
+  padding: 20px 0px;
+  color: #ffffff;
+}

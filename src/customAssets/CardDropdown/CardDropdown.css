@@ -1,0 +1,25 @@
+.dropDownList {
+  display: column;
+  list-style-type: none;
+  border: 1px solid green;
+  width: 100%;
+  margin: auto;
+}
+.dropDownItem {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.itemText {
+  font-size: 12px;
+  width: 100%;
+}
+.buttonDiv {
+  display: flex;
+  justify-content: space-evenly;
+}
+.btnStyle,
+.btnText {
+  font-size: 9px;
+}
