@@ -6,7 +6,7 @@ import calendar from "../../../src/Images/calendar_today-24px (1).svg";
 import { Breach } from "../Breach/Breach";
 import "./Status.css";
 
-const options = ["Option 1", "Option 2"];
+const options = ["Client", "Services"];
 const label = { inputProps: { "aria-label": "Switch demo" } };
 
 export const Status = () => {

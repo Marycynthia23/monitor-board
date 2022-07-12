@@ -6,7 +6,8 @@ import brd from "../../../src/Images/Group 1378.png";
 import notbrd from "../../../src/Images/Ellipse 156.png";
 import breched from "../../../src/Images/Ellipse 157.png";
 import "./Breach.css";
-import { Cards } from "../../customAssets/Cards/Cards";
+import Cards from "../../customAssets/Cards/Cards";
+const data = ["Indigo", "Rainbow", "Client3"];
 
 export const Breach = () => {
   return (
@@ -39,7 +40,9 @@ export const Breach = () => {
       </div>
       <div className="cardContainer">
         <div className="cardBox">
-          <Cards />
+          {data.map((item, index) => {
+            return <Cards heading={item} key={index} />;
+          })}
         </div>
       </div>
     </div>

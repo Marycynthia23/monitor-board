@@ -25,12 +25,11 @@
 .cardContainer {
   width: 100%;
   display: flex;
-  margin-right: 20px;
+  margin-right: 200px;
 }
 .cardBox {
-  width: 50%;
+  width: 1000px;
   display: flex;
-  flex-direction: column;
   margin-right: 20px;
   background-color: pink;
   padding: 10px;

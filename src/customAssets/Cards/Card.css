@@ -1,0 +1,71 @@
+.card {
+  width: 100%;
+  background: #ffffff;
+  box-shadow: 0px 2px 2px #0000001a;
+  border: 1px solid #c7ced5;
+  border-radius: 6px;
+  opacity: 1;
+  padding: 20px 20px;
+  margin: 10px auto;
+}
+.cardTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+h4,
+.cardInfo {
+  margin: 0;
+  color: #706f6f;
+  font-family: sans-serif;
+}
+.cardInfo {
+  font-size: 11px;
+}
+.cardDetails {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btnRed {
+  width: 30px;
+  color: #fff;
+  background-color: #ef5245;
+  border: none;
+  border-radius: 4px 0 0 4px;
+  padding: 5px;
+}
+.btnGrey {
+  background-color: #ebebeb;
+  width: 50px;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  padding: 5px;
+}
+.btnGreen {
+  background-color: #92d150;
+  width: 50px;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  padding: 5px;
+}
+.listCont {
+  /* display: flex; */
+  justify-content: space-between;
+  align-items: center;
+  border-left: 3px solid #b99ff5;
+  padding: 10px;
+}
+.textCont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.listText {
+  font-size: 12px;
+  color: #706f6f;
+  font-family: sans-serif;
+}
+.textCont button {
+  padding: 10px;
+}
