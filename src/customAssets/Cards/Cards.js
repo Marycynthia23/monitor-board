@@ -17,17 +17,17 @@ const data = [
 ];
 
 const Cards = ({ heading }) => {
-  // const [serviceList, setServiceList] = useState([{ service: "" }]);
+  const [serviceList, setServiceList] = useState([]);
 
-  // const handleServiceRemove = (index) => {
-  //   const list = [...serviceList];
-  //   list.splice(index, 1);
-  //   setServiceList(list);
-  // };
+  const handleServiceRemove = (index) => {
+    const list = [...serviceList];
+    list.splice(index, 1);
+    setServiceList(list);
+  };
 
-  // const handleServiceAdd = () => {
-  //   setServiceList([...serviceList, { service: "" }]);
-  // };
+  const handleServiceAdd = () => {
+    setServiceList([...serviceList, { service: "" }]);
+  };
   return (
     <div className="cards">
       <div className="cardContainer">
@@ -38,7 +38,7 @@ const Cards = ({ heading }) => {
             <img
               className="solidPin"
               src={pin}
-              // onClick={handleServiceAdd}
+              onClick={handleServiceAdd}
               alt=""
             />
           </div>

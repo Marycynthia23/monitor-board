@@ -6,10 +6,23 @@ import brd from "../../../src/Images/Group 1378.png";
 import notbrd from "../../../src/Images/Ellipse 156.png";
 import breched from "../../../src/Images/Ellipse 157.png";
 import "./Breach.css";
+import { useState } from "react";
 import Cards from "../../customAssets/Cards/Cards";
 const data = ["Indigo", "Rainbow", "Client3"];
 
 export const Breach = () => {
+  const [leftList, setLeftList] = useState([]);
+
+  const handleServiceRemove = (index) => {
+    const list = [...leftList];
+    list.splice(index, 1);
+    setLeftList(list);
+  };
+
+  const handleServiceAdd = () => {
+    setLeftList([...leftList, {}]);
+  };
+
   return (
     <div>
       <div className="breachBox">
@@ -44,6 +57,7 @@ export const Breach = () => {
             return <Cards heading={item} key={index} />;
           })}
         </div>
+        <div>{leftList}</div>
       </div>
     </div>
   );

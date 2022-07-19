@@ -24,14 +24,15 @@
 }
 .cardContainer {
   width: 100%;
-  display: flex;
+  /* display: flex; */
   margin-right: 200px;
 }
 .cardBox {
-  width: 1000px;
+  width: 770px;
   display: flex;
   margin-right: 20px;
   background-color: pink;
   padding: 10px;
   overflow: auto;
+  /* overflow-x: hidden; */
 }

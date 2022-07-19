@@ -1,5 +1,4 @@
 .card {
-  width: 100%;
   background: #ffffff;
   box-shadow: 0px 2px 2px #0000001a;
   border: 1px solid #c7ced5;
@@ -50,11 +49,23 @@ h4,
   padding: 5px;
 }
 .listCont {
-  /* display: flex; */
-  justify-content: space-between;
+  width: 100%;
   align-items: center;
   border-left: 3px solid #b99ff5;
-  padding: 10px;
+  padding: 8px;
+  margin: 10px auto;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: rgba(0, 0, 0, 0.1);
+}
+.listContYellow {
+  width: 100%;
+  border-left: 3px solid #fdd800;
+  padding: 8px;
+  margin: 10px auto;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: rgba(0, 0, 0, 0.1);
 }
 .textCont {
   display: flex;
@@ -62,10 +73,27 @@ h4,
   align-items: center;
 }
 .listText {
-  font-size: 12px;
+  font-size: 10px;
   color: #706f6f;
   font-family: sans-serif;
 }
 .textCont button {
   padding: 10px;
+}
+.buttonRed {
+  width: 100px;
+  color: #fff;
+  background-color: #ef5245;
+  border: none;
+  border-radius: 4px;
+  padding: 5px;
+  font-size: 10px;
+}
+.buttonGrey {
+  background-color: #ebebeb;
+  width: 100px;
+  border: none;
+  border-radius: 4px;
+  padding: 5px;
+  font-size: 10px;
 }
